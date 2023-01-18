@@ -1,0 +1,53 @@
+/* Styles go here */
+
+/** Styles **/
+
+#colors {
+    float: left;
+    overflow: hidden;
+    width: 280px;
+}
+
+#colors li{
+    background-color: #FB2576;
+    color: black;
+    cursor: auto;
+    font-size: 30px;
+    line-height: 100px;
+    list-style-position: inside;
+    list-style-type: none;
+    height: 100px;
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#colors li.lime { background-color: #9CFF2E; }
+#colors li.blue { background-color: #39B5E0; }
+#colors li.purple { background-color: #5800FF; }
+#colors li.on { background-color: black; }
+
+p#start { 
+    cursor:pointer; 
+    color: #3330E4;
+    font-family: 'Shrikhand', cursive;
+    font-size: 3rem;
+}
+
+p#start:hover { 
+    text-decoration: underline; 
+}
+
+p#level {
+    font-family: 'Shrikhand', cursive;
+    font-size: 2rem;
+    color: #3330E4;
+}
+.playing #colors li {
+    cursor: pointer;
+}
+
+.game-over #colors li {
+    opacity: 0.5;
+}
